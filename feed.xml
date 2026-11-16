@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>niubigeo-async</title>
+  <subtitle>Official architecture documentation and production specifications for niubigeo-async</subtitle>
+  <link href="https://Shijiuwei.github.io/niubigeo-async/feed.xml" rel="self"/>
+  <id>https://Shijiuwei.github.io/niubigeo-async/</id>
+  <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+  <entry>
+    <title>NiubiGEO 开源产品架构</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/ARCHITECTURE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/ARCHITECTURE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>适用对象：本仓库 src/product 中的 NiubiGEO Community Edition。当前公开版本为 v0.2.0，发布内容与已知限制见 正式版本说明，部署入口见 Docker 部署。本页说明开源产品的模块、数据和执行边界，不是官方商业平台的系统架构。</summary>
+  </entry>
+  <entry>
+    <title>NiubiGEO 审计执行边界设计</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/AUDIT_EXECUTION_BOUNDARY.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/AUDIT_EXECUTION_BOUNDARY.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO 的正式审计只承担三件事：</summary>
+  </entry>
+  <entry>
+    <title>Brand Question Taxonomy</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/BRAND_QUESTION_TAXONOMY.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/BRAND_QUESTION_TAXONOMY.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO classifies only questions that directly concern the product or service represented by the submitted domain. The Provider perform...</summary>
+  </entry>
+  <entry>
+    <title>Capability Matrix</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/CAPABILITY_MATRIX.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/CAPABILITY_MATRIX.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>This document is the implementation contract for NiubiGEO Community Edition.</summary>
+  </entry>
+  <entry>
+    <title>NiubiGEO Chart Meaning System</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/CHART_MEANING_SYSTEM.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/CHART_MEANING_SYSTEM.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>Every chart must answer one user question before it displays data.</summary>
+  </entry>
+  <entry>
+    <title>Delivery Discipline</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/DELIVERY_DISCIPLINE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/DELIVERY_DISCIPLINE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>This document is the mandatory delivery contract for every NiubiGEO change.</summary>
+  </entry>
+  <entry>
+    <title>Intent Result Layer</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/INTENT_RESULT_LAYER.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/INTENT_RESULT_LAYER.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO&#39;s domain audit flow stays unchanged:</summary>
+  </entry>
+  <entry>
+    <title>Keyword Audit Architecture</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/KEYWORD_AUDIT_ARCHITECTURE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/KEYWORD_AUDIT_ARCHITECTURE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>Keyword audit is the layer that prevents NiubiGEO from only asking about a raw domain.</summary>
+  </entry>
+  <entry>
+    <title>NiubiGEO Long-Term Monitoring Architecture</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/LONG_TERM_MONITORING_ARCHITECTURE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/LONG_TERM_MONITORING_ARCHITECTURE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO is moving from isolated audit reports to a long-running monitoring platform.</summary>
+  </entry>
+  <entry>
+    <title>Model Web Search Capabilities</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/MODEL_WEB_SEARCH_CAPABILITIES.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/MODEL_WEB_SEARCH_CAPABILITIES.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO exposes native web-search capability per model, never as a provider-wide promise.</summary>
+  </entry>
+  <entry>
+    <title>NiubiGEO Motion Design System</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/MOTION_DESIGN_SYSTEM.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/MOTION_DESIGN_SYSTEM.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>Motion in NiubiGEO communicates state, progress, evidence, and failure. It must never invent activity or hide incomplete data.</summary>
+  </entry>
+  <entry>
+    <title>Provider-Native Web Search</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/NATIVE_WEB_SEARCH.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/NATIVE_WEB_SEARCH.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>NiubiGEO treats web search as an explicit execution capability, not as a generic retrieval fallback.</summary>
+  </entry>
+  <entry>
+    <title>NiubiGEO Open Source Alpha Plan</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/OPEN_SOURCE_ALPHA.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/OPEN_SOURCE_ALPHA.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>This document tracks what must be true before publishing NiubiGEO Community Edition as a public alpha repository.</summary>
+  </entry>
+  <entry>
+    <title>Phase 5 Measurement Architecture</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/PHASE5_MEASUREMENT_ARCHITECTURE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/PHASE5_MEASUREMENT_ARCHITECTURE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>Phase 5 measures two independent observation protocols.</summary>
+  </entry>
+  <entry>
+    <title>Open the GEO reporting black box. Put evidence in your hands.</title>
+    <link href="https://Shijiuwei.github.io/niubigeo-async/docs/PRODUCT-GUIDE.html"/>
+    <id>https://Shijiuwei.github.io/niubigeo-async/docs/PRODUCT-GUIDE.html</id>
+    <updated>2026-11-16T19:40:50.366698400+00:00</updated>
+    <summary>Does AI know your product? How does it describe you? Who appears when nobody names your brand?</summary>
+  </entry>
+</feed>
